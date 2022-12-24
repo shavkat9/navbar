@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(./umbrella.jpg) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header__titles {
+    padding: 150px;
+}
+.header__titles h2 {
+    width: 400px;
+    color: #fff;
+    font-size: 45px;
+}
+.header__titles span {
+    color: red;
+}
+.header__titles p {
+    color: rgb(106, 106, 214);
+    margin-top: 20px;
+    font-size: 24px;
+}
+.header__titles button {
+    width: 170px;
+    height: 50px;
+    margin-top: 40px;
+    background: rgb(223, 25, 58);
+    border-radius: 4px;
+    text-transform: uppercase;
+    border: none;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 600;
+}
+.header__titles button:hover {
+    background: #fff;
+    color: #000;
+}
